@@ -95,7 +95,7 @@ class GetPRInfo:
       comments.extend(c_comments)
       comments = sorted(comments, key=lambda c: c.created_at)
       reviews.extend(c_reviews)
-      reviews = sorted(reviews, key=lambda r: r.created_at)
+      reviews = sorted(reviews, key=lambda r: r.submitted_at)
       return prs, comments, reviews
     if self.date_in_cache():
       print("pulling from cache")
