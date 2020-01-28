@@ -31,7 +31,10 @@ class UserStatistics:
     return_string = f"number of comments: {self.number_of_review_comments}, "
     return_string += f"number of reviews: {self.number_of_reviews}, "
     return_string += f"number of prs: {self.number_of_prs}, "
-    return_string += f"pr/days: {round(self.number_of_prs / self.number_of_business_days, 2)}, "
+    days = self.number_of_business_days
+    if days == 0:
+      days += 1
+    return_string += f"pr/days: {round(self.number_of_prs / days, 2)}, "
     if self.verbose >= 1:
       if self.comments:
         return_string += "\n" + pprint.pformat(self.comments)

@@ -1,0 +1,44 @@
+start: 2020-01-16
+end: 2020-01-23
+repo name: tuesday-strategies
+finding repo
+gathering repo data
+pulling from cache
+processing prs
+processing comments
+processing reviews
+Charlton Austin: number of comments: 8, number of reviews: 0, number of prs: 0, pr/days: 0.0, 
+[(url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2371#discussion_r369043892, created_at: 2020-01-21, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2377#discussion_r369057293, created_at: 2020-01-21, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2377#discussion_r369069414, created_at: 2020-01-21, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2371#discussion_r369042400, created_at: 2020-01-21, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2372#discussion_r369064146, created_at: 2020-01-21, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2371#discussion_r369044608, created_at: 2020-01-21, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2377#discussion_r369069768, created_at: 2020-01-21, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2372#discussion_r369064439, created_at: 2020-01-21, )]
+Harry: number of comments: 0, number of reviews: 0, number of prs: 4, pr/days: 0.8, 
+[(url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2382 created_at: 2020-01-21, close_at: 2020-01-21, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2376 created_at: 2020-01-17, close_at: 2020-01-21, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2373 created_at: 2020-01-17, close_at: 2020-01-17, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2375 created_at: 2020-01-17, close_at: 2020-01-17, )]
+Harsh Arvindbhai Modi: number of comments: 1, number of reviews: 0, number of prs: 7, pr/days: 1.4, 
+[(url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2373#discussion_r368039246, created_at: 2020-01-17, )]
+[(url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2377 created_at: 2020-01-17, close_at: 2020-01-21, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2384 created_at: 2020-01-22, close_at: 2020-01-22, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2371 created_at: 2020-01-16, close_at: 2020-01-21, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2387 created_at: 2020-01-23, close_at: 2020-01-23, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2388 created_at: 2020-01-23, close_at: 2020-01-24, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2372 created_at: 2020-01-17, close_at: 2020-01-21, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2386 created_at: 2020-01-22, close_at: 2020-01-23, )]
+Jenny: number of comments: 1, number of reviews: 0, number of prs: 6, pr/days: 1.2, 
+[(url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2373#discussion_r368038349, created_at: 2020-01-17, )]
+[(url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2379 created_at: 2020-01-21, close_at: 2020-01-21, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2378 created_at: 2020-01-21, close_at: 2020-01-21, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2385 created_at: 2020-01-22, close_at: 2020-01-22, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2374 created_at: 2020-01-17, close_at: 2020-01-17, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2380 created_at: 2020-01-21, close_at: 2020-01-21, ),
+ (url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2381 created_at: 2020-01-21, close_at: 2020-01-21, )]
+Yacine Benzine: number of comments: 1, number of reviews: 0, number of prs: 1, pr/days: 0.2, 
+[(url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2381#discussion_r369227606, created_at: 2020-01-21, )]
+[(url: https://github.com/tuesday-strategies/tuesday-strategies/pull/2383 created_at: 2020-01-22, close_at: 2020-01-22, )]
+Total business days 5
