@@ -37,7 +37,7 @@ def main():
     metavar='End date for analysis',
     type=lambda s: datetime.datetime.strptime(s, '%Y-%m-%d').date(),
     nargs=1,
-    help='The first day inclusive of analysis. ex: 16-Jul-2020',
+    help='The last day inclusive of analysis. ex: 16-Jul-2020',
     default=[datetime.datetime.today().date()]
   )
   parser.add_argument('--verbose', '-v', action='count', default=0)
