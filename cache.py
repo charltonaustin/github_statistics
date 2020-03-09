@@ -48,7 +48,8 @@ class Cache:
       print("not writing cache since start and end date are the same")
       return
 
-    end = (end - datetime.timedelta(days=1)).date()
+    if end == datetime.datetime.today().date():
+      end = (end - datetime.timedelta(days=1))
     print(f"writing cache from {start} to {end}")
     for pr in prs:
       name = pr.user.name  # this is to force lazy evaluation

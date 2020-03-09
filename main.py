@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import argparse
 import datetime
 import os
@@ -78,6 +79,7 @@ def main():
   print("start: {}".format(start))
   print("end: {}".format(end))
   print("repo name: {}".format(name))
+  repo = get_repo(g, name)
   cache.initialize_folder()
   if args.delete_cache:
     print("deleting cache")
@@ -85,7 +87,6 @@ def main():
     return
 
   total_business_days = BusinessDayCalculator(start, end).business_days()
-  repo = get_repo(g, name)
   prs, comments, reviews = GetPRInfo(repo, start, end, cache).get_pr_info()
   statistics = {}
   statistics = PRInfoProcessor(statistics, prs, total_business_days, verbose).process()
@@ -97,14 +98,16 @@ def main():
 
 
 def get_repo(g, repo_name):
-  print("finding repo")
+  print("finding repos")
   names = []
   for repo in g.get_user().get_repos():
     names.append(repo.name)
     if repo.name == repo_name:
       return repo
-  print(f"Invalid repo name: {repo_name}")
-  print(f"Please select repo name from: {names}")
+  print(f"******\nInvalid repo name: {repo_name}\n******\n")
+  print(f"Please select repo name from:")
+  for name in names:
+    print(name)
   sys.exit(1)
 
 
